@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wapper{
+    background-color: orange;
+}
+.all{
+    background-color: orange;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    color: black;
+}
+span{
+    color: white;
+}
+.hide li a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    /* border-right: 1px solid white; */
+    border-left: 2px solid white;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+#image{
+    background-image: url("image/wallpapersden.com_scorpion-4k-mortal-kombat-digital_4000x2588.jpg");
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+}
+.hero{
+    display: flex;
+    text-align: center;
+    
+}
+.hero p{
+    border: 1px solid;
+    margin: 10px;
+    padding: 15px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    height: 150px;
+    width: 500px;
+    text-align: justify;
+}
+.show {
+    flex-direction: column;
+    margin: 40px;
+}
+.show li {
+    color:black;
+    margin: 10px;   
+}
+.show li a{
+    text-decoration: none;
+    background-color:pink ;
+    height: 2;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.side{
+    display: flex;
+    padding: 20px;
+}
+.two{
+    margin-left: 20px;
+}
+.one{
+    width: 260px;
+    /* margin: 40px; */
+    padding: 10px;
+}
+.one h3{
+    padding: 10px;
+    background-color: #fff;
+    color: rgb(55, 46, 46);
+    margin: 8px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.two p{
+    padding: 16px;
+    border-left: 2px solid gray;
+}
+
